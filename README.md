@@ -1,2 +1,2 @@
 # imake
-Inicio proyecto en con Git
+Inicio proyecto en Git
