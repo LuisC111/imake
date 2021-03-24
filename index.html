@@ -1,158 +1,379 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./assets/css/jquery.fullPage.css">
-    <link rel="stylesheet" href="./assets/css/common.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <title>iMake Colombia | Food & Shops</title>
-
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css" />
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css" />
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet" type="text/css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="resources/favicons/Logo_Nuevo.ico" />
+    <link rel="manifest" href="resources/favicons/site.webmanifest" />
+    <link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>iMake | Food & Services</title>
 </head>
 
 <body>
-    <header><a class="name" href="./">iMAKE</a>
-        <div class="wrap">
-            <div class="icons"><a href="#" target="_blank"><i class="fab fa-twitter"></i></a><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a><a href="login.html" target="_blank">Iniciar Sesión</a></div>
-            <div class="menuIcon js-menuBtn"></div>
-        </div>
-        <nav class="global-nav">
-            <ul class="global-nav__list">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">OP</a></li>
-                <li><a href="#">OP2</a></li>
-                <li><a class="js-contact" href="#">OP3</a></li>
-                <li class="global-nav__sns"><a href="#" target="_blank"><i class="fab fa-twitter"></i></a><a href="#" target="_blank"><i class="#"></i></a></li>
-            </ul>
+    <header>
+        <nav>
+            <div class="row">
+                <img src="resources/images/Marca.png" class="logo" />
+                <img src="resources/images/Marca.png" class="logo-black" />
+                <ul class="main-nav js--main-nav">
+                    <li><a href="#contact">Contactanos</a></li>
+                    <li><a href="#works">Pedidos</a></li>
+                    <li><a href="#cities">Areas</a></li>
+                    <li><a href="#plans">Iniciar sesión</a></li>
+                </ul>
+                <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i
+          ></a>
+            </div>
         </nav>
-        <div class="curtain"></div>
-        <div class="loader"></div>
+        <div class="hero-text-box">
+            <h1>Bienvenido a iMake!<br />Como estas hoy?</h1>
+            <a class="btn btn-full js--scroll-to-plans" href="#" title="Order Now!">Estoy hambriento</a
+        >
+        <a class="btn btn-ghost js--scroll-to-start" href="#">Leer más</a>
+        </div>
     </header>
 
-    <main id="barba-wrapper">
-        <div class="barba-container" data-namespace="top">
-            <div class="fullpage" id="js-fullpage">
-                <div class="section">
-                    <div class="fullpage__slide">
-                        <div class="title title--top">
-                            <h1 class="title__text js-letter">iMake</h1>
-                            <div class="border js-letter"><span></span><span class="js-letter"></span></div>
-                            <p class="title__lead js-letter">We make all easy for you.</p>
-                        </div>
-                        <div class="moon">
-                            <div class="moon__img js-parallax-moon">
-
-                                <div class="moon__front layer" data-depth="0.8">
-                                    <div class="cloud cloud--front1 js-moon"><img src="./assets/img/cloud1.svg" alt="cloud"></div>
-                                </div>
-                                <div class="moon__back layer" data-depth="0.4">
-                                    <div class="cloud cloud--back2 js-moon"><img src="./assets/img/b_cloud02.svg" alt="cloud"></div>
-                                </div>
-                                <div class="moon__front layer" data-depth="0.6">
-                                    <div class="cloud cloud--front2 js-moon"><img src="./assets/img/cloud2.svg" alt="cloud"></div>
-                                </div>
-                                <div class="moon__back layer" data-depth="0.5"><img class="js-moon" src="./assets/img/moon.svg" alt="moon">
-                                    
-                                </div>
-                                <div class="moon__front layer" data-depth="0.7">
-                                    <div class="cloud cloud--front3 js-moon"><img src="./assets/img/cloud3.svg" alt="cloud"></div>
-                                </div>
-                                <div class="moon__back layer" data-depth="0.3">
-                                    <div class="cloud cloud--back1 js-moon"><img src="./assets/img/b_cloud01.svg" alt="cloud"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="section">
-                    <div class="fullpage__slide">
-                        <div class="title">
-                            <h2 class="title__text js-letter">Restaurantes<br>iMake</h2>
-                            <div class="border js-letter"><span></span><span class="js-letter"></span></div>
-                            <p class="title__lead js-letter">¿Tienes hambre?</p>
-                            <div class="btn-wrap js-letter"><a class="btn" href="#">¡Click aqui!</a></div>
-                        </div>
-                        <a class="image image--works" href="#">
-                            <div class="image__over">
-                                <div class="image__cover"></div>
-                                <div class="image__cover"></div>
-                            </div>
-                            <div class="page-num">
-                                <p>01</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="section">
-                    <div class="fullpage__slide">
-                        <div class="title">
-                            <h2 class="title__text js-letter">Moda</h2>
-                            <div class="border js-letter"><span></span><span class="js-letter"></span></div>
-                            <p class="title__lead js-letter">¿Buscando comprar ropa nueva?.<br>Que esperas</p>
-                            <div class="btn-wrap js-letter"><a class="btn" href="#">¡Click aqui!</a></div>
-                        </div>
-                        <a class="image image--about" href="#">
-                            <div class="image__over">
-                                <div class="image__cover"></div>
-                                <div class="image__cover"></div>
-                            </div>
-                            <div class="page-num">
-                                <p>02</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="section">
-                    <div class="fullpage__slide">
-                        <div class="title">
-                            <h2 class="title__text js-letter">Contactanos!</h2>
-                            <div class="border js-letter"><span></span><span class="js-letter"></span></div>
-                            <ul>
-                                <li class="js-letter"><a href="mailto:imake@gmail.com">imake@gmail.com</a></li>
-                                <li class="js-letter"><a href="#" target="_blank"><i class="fal fa-phone"></i>3024358217</a></li>
-                                <li class="js-letter"><a href="#" target="_blank"><i class="fal fa-phone"></i>3162943432</a></li>
-                                <li class="js-letter"><a href="#" target="_blank"><i class="fab fa-twitter"></i></a><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="image image--contact">
-                            <div class="image__over">
-                                <div class="image__cover"></div>
-                                <div class="image__cover"></div>
-                            </div>
-                            <div class="page-num">
-                                <p>03</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <p class="scrollDown"> ¡DESLIZATE! </p>
-            <div class="moon-background">
-                <div class="moonlight">
-                    <div class="moonlight__wrap js-parallax-moonlight">
-                        <div class="layer moonlight__img" data-depth="0.2"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="star js-parallax-star">
-                <div class="layer" data-depth="0.1">
-                    <div class="star__img"><img src="./assets/img/star.svg"></div>
-                </div>
-            </div>
-            <div class="sky-color"></div>
+    <section class="section-features js--section-features" id="features">
+        <div class="row">
+            <h2>Has tu pedido &mdash; Ya!</h2>
+            <p class="long-copy">
+                Nunca habia sido tan facil realizar un pedido en linea. Todo lo que quieres en un solo lugar.
+            </p>
         </div>
-    </main>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="./assets/js/jquery.fullPage.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
-    <script src="./assets/js/parallax.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
-    <script src="./assets/js/common.min.js"></script>
-</body>
 
+        <div class="row js--wp-1">
+            <div class="col span-1-of-4 box">
+                <i class="ion-ios-infinite-outline icon-big"></i>
+                <h3>Servicio 24/7</h3>
+                <p>Realiza tu pedido a cualquier hora los 7 dias de la semana!</p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <i class="ion-ios-stopwatch-outline icon-big"></i>
+                <h3>Listo en 20 minutos o menos</h3>
+                <p>Rapidez y eficacia inigualables.</p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <i class="ion-ios-nutrition-outline icon-big"></i>
+                <h3>100% seguro</h3>
+                <p>Tus productos llegaran a casa en perfecto estado.</p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <i class="ion-ios-cart-outline icon-big"></i>
+                <h3>Orden prioritaria</h3>
+                <p>Todas las ordenes son igual de importantes para nosotros :3</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-meals">
+        <ul class="meals-showcase clearfix">
+            <li>
+                <figure class="meal-photos">
+                    <img src="resources/images/1.jpg" />
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photos">
+                    <img src="resources/images/2.jpg" />
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photos">
+                    <img src="resources/images/3.jpg" />
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photos">
+                    <img src="resources/images/4.jpg" />
+                </figure>
+            </li>
+        </ul>
+        <ul class="meals-showcase clearfix">
+            <li>
+                <figure class="meal-photos">
+                    <img src="resources/images/5.jpg" />
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photos">
+                    <img src="resources/images/6.jpg" />
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photos">
+                    <img src="resources/images/7.jpg" />
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photos">
+                    <img src="resources/images/8.jpg" />
+                </figure>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section-steps" id="works">
+        <div class="row">
+            <h2>Como hacer un pedido? &mdash; En 3 simples pasos</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-2 steps-box">
+                <img src="resources/images/app-iPhone.png" class="app-screen js--wp-2" />
+            </div>
+            <div class="col span-1-of-2 steps-box">
+                <div class="works-step">
+                    <div>1</div>
+                    <p>Ingresa a el sitio web de iMake.</p>
+                </div>
+                <div class="works-step">
+                    <div>2</div>
+                    <p>Busca que vas a pedir hoy y has la orden!</p>
+                </div>
+                <div class="works-step">
+                    <div>3</div>
+                    <p>
+                        Disfruta de tu pedido que estara en la puerta de tu casa en 20 minutos o menos!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-cities" id="cities">
+        <div class="row">
+            <h2>Actualmente operamos en los siguientes barrios:</h2>
+        </div>
+        <div class="row js--wp-3">
+            <div class="col span-1-of-4 box">
+                <img src="resources/images/lisbon-3.jpg" />
+                <h3>Restrepo</h3>
+                <div class="city-future">
+                    <i class="ion-ios-person icon-small"></i> Nadie la usa:/ xd
+                </div>
+                <div class="city-future">
+                    <i class="ion-ios-star icon-small"></i> No tenemos aun negocios:/
+                </div>
+                <div class="city-future">
+                    <i class="ion-social-twitter icon-small"></i>
+                    <a href="#">@iMake</a>
+                </div>
+            </div>
+            <div class="col span-1-of-4 box">
+                <img src="resources/images/san-francisco.jpg" ">
+          <h3>20 de Julio</h3>
+          <div class="city-future ">
+            <i class="ion-ios-person icon-small "></i>
+            Nadie la usa:/ xd
+          </div>
+          <div class="city-future ">
+            <i class="ion-ios-star icon-small "></i>
+            No tenemos aun negocios:/
+          </div>
+          <div class="city-future ">
+            <i class="ion-social-twitter icon-small "></i>
+            <a href=" # ">@iMake</a>
+          </div>
+        </div>
+        <div class="col span-1-of-4 box ">
+          <img src=" resources/images/berlin.jpg " />
+          <h3>Policarpa</h3>
+          <div class="city-future ">
+            <i class="ion-ios-person icon-small "></i>
+            Nadie la usa:/ xd
+          </div>
+          <div class="city-future ">
+            <i class="ion-ios-star icon-small "></i>
+            No tenemos aun negocios:/
+          </div>
+          <div class="city-future ">
+            <i class="ion-social-twitter icon-small "></i>
+            <a href=" # ">@iMake</a>
+          </div>
+        </div>
+        <div class="col span-1-of-4 box ">
+          <img src=" resources/images/london.jpg " />
+          <h3>Ciudad Jardin</h3>
+          <div class="city-future ">
+            <i class="ion-ios-person icon-small "></i>
+            Nadie la usa:/ xd
+          </div>
+          <div class="city-future ">
+            <i class="ion-ios-star icon-small "></i>
+            No tenemos aun negocios:/
+          </div>
+          <div class="city-future ">
+            <i class="ion-social-twitter icon-small "></i>
+            <a href=" # ">@iMake</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-testimonials ">
+      <div class="row ">
+        <h2>Opiniones de nuestros clientes</h2>
+      </div>
+      <div class="row ">
+        <div class="col span-1-of-3 ">
+          <blockquote>
+            iMake es re melo, 100% recomendado xd
+            <cite
+              ><img src=" resources/images/customer-1.jpg " />Juan
+              Rodriguez</cite
+            >
+          </blockquote>
+        </div>
+        <div class="col span-1-of-3 ">
+          <blockquote>
+            100 veces mejor que rappi 8)
+            <cite
+              ><img src=" resources/images/customer-2.jpg " />Johana Silva</cite
+            >
+          </blockquote>
+        </div>
+        <div class="col span-1-of-3 ">
+          <blockquote>
+            Le gana a todas esas apps truchas
+            <cite
+              ><img src=" resources/images/customer-3.jpg " />Hector
+              Florez</cite
+            >
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-form " id="contact ">
+      <div class="row ">
+        <h2>Contactanos!</h2>
+      </div>
+
+      <div class="row ">
+        <form method=" post " action=" # " class="contact-form ">
+          <div class="row ">
+            <div class="col span-1-of-3 ">
+              <label for=" name ">Nombre</label>
+            </div>
+            <div class="col span-2-of-3 ">
+              <input
+                type=" text "
+                name=" name "
+                id=" name "
+                placeholder=" Tu nombre "
+                required
+              />
+            </div>
+          </div>
+
+          <div class="row ">
+            <div class="col span-1-of-3 ">
+              <label for=" email ">Email</label>
+            </div>
+            <div class="col span-2-of-3 ">
+              <input
+                type=" email "
+                class="form-control "
+                name="email "
+                id=" email "
+                aria-describedby=" emailHelp "
+                placeholder=" Escriba su direccion de correo aqui.. "
+              />
+              <small id=" emailHelp " class="form-text text-muted "
+                >No compartas esta dirección con otras personas.</small
+              >
+            </div>
+          </div>
+
+          <div class="row ">
+            <div class="col span-1-of-3 ">
+              <label for=" find-us ">Como conociste iMake?</label>
+            </div>
+            <div class="col span-2-of-3 ">
+              <select name=" find-us " id=" find-us ">
+                <option value=" friends " selected>Amigos</option>
+                <option value=" search ">Busquedas</option>
+                <option value=" ad ">Anuncios</option>
+                <option value=" other ">Otro</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row ">
+            <div class="col span-1-of-3 ">
+              <label>Alguna sugerencia?</label>
+            </div>
+            <div class="col span-2-of-3 ">
+              <textarea name=" message " placeholder=" Tu mensaje "></textarea>
+            </div>
+          </div>
+
+          <div class="row ">
+            <div class="col span-1-of-3 ">
+              <label>&nbsp;</label>
+            </div>
+            <div class="col span-2-of-3 ">
+              <a
+                class="btn btn-full js--scroll-to-plans "
+                type=" submit "
+                href=" # "
+                title=" Send Now! "
+                >Enviar!</a
+              >
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="row ">
+        <div class="col span-1-of-2 ">
+          <ul class="footer-nav ">
+            <li><a href=" # ">Acerca de nosotros</a></li>
+            <li><a href=" # ">Blog</a></li>
+            <li><a href=" # ">ola</a></li>
+            <li><a href=" # ">ola</a></li>
+            <li><a href=" # ">ola</a></li>
+          </ul>
+        </div>
+        <div class="col span-1-of-2 ">
+          <ul class="social-links ">
+            <li>
+              <a href=" # "><i class="ion-social-facebook "></i></a>
+            </li>
+            <li>
+              <a href=" # "><i class="ion-social-twitter "></i></a>
+            </li>
+            <li>
+              <a href=" # "><i class="ion-social-googleplus "></i></a>
+            </li>
+            <li>
+              <a href=" # "><i class="ion-social-instagram "></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row ">
+        <p>Copyright &copy; 2021 iMake. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
+    <script src=" vendors/js/jquery.waypoints.min.js "></script>
+    <script src=" https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js "></script>
+    <script src=" https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js "></script>
+    <script src=" resources/js/script.js "></script>
+  </body>
 </html>
