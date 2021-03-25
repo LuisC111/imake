@@ -149,6 +149,10 @@ input[type=submit] {
     margin-right: 15px;
 }
 
+.btn-full:hover{
+  background: -webkit-linear-gradient(30deg, #bf317d, #2ba3df, #3b2061);
+}
+
 .btn-ghost:link,
 .btn-ghost:visited {
     border: 1px solid #ffffff;
