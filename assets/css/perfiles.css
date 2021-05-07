@@ -1468,35 +1468,6 @@ header .form-inline {
     text-transform: capitalize;
     vertical-align: middle; }
 
-/* Timeline */
-.timeline li {
-  font-family: 'Open Sans';
-  list-style: none;
-  padding: 5px 0;
-  position: relative; }
-  .timeline li i {
-    border-radius: 50%;
-    color: #fff;
-    font-size: 12px;
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-    text-align: center; }
-  .timeline li span {
-    color: #868e96;
-    display: block;
-    font-size: 14px; }
-    .timeline li span a {
-      color: #343a40; }
-  .timeline li .time {
-    font-size: 12px;
-    padding-bottom: 15px; }
-  .timeline li img {
-    margin: 10px 5px 15px 0;
-    max-height: 40px; }
-.timeline .media-body {
-  border-bottom: 1px solid #e8e9ef; }
-
 /* Weather */
 .widget .card-footer {
   border-top-color: #e8e9ef; }
@@ -2100,59 +2071,6 @@ footer.site-footer {
     footer.site-footer .footer-inner a {
       color: #6a7074; }
 
-.calender-cont {
-  position: relative;
-  padding-top: 20px; }
-  .calender-cont .fc-title {
-    color: #fff; }
-  .calender-cont .fc-center {
-    position: absolute;
-    top: 0;
-    left: 0; }
-    .calender-cont .fc-center h2 {
-      font-size: 16px;
-      font-weight: 700; }
-  .calender-cont td .fc-event {
-    border: 0px solid transparent;
-    padding: 1px; }
-  .calender-cont td .fc-time {
-    color: white;
-    font-weight: 400;
-    font-size: 11px;
-    padding: 2px; }
-  .calender-cont .fc-left .fc-button-group {
-    position: absolute;
-    top: 0;
-    right: 0; }
-    .calender-cont .fc-left .fc-button-group button {
-      height: 20px;
-      width: 20px;
-      line-height: 18px;
-      padding: 0;
-      border: 0px solid transparent;
-      background: #eceff1;
-      color: #889196; }
-      .calender-cont .fc-left .fc-button-group button.fc-prev-button {
-        margin-right: 4px; }
-      .calender-cont .fc-left .fc-button-group button .fc-icon {
-        font-size: 11px; }
-      .calender-cont .fc-left .fc-button-group button:hover {
-        background: #d8d8d8; }
-  .calender-cont.widget-calender {
-    padding-top: 20px; }
-    .calender-cont.widget-calender td, .calender-cont.widget-calender th {
-      font-size: 14px;
-      border: 0px solid transparent; }
-    .calender-cont.widget-calender .fc-right {
-      display: none; }
-    .calender-cont.widget-calender .fc-today-button {
-      display: none; }
-    .calender-cont.widget-calender .fc-widget-content {
-      height: 45px !important;
-      min-height: 45px !important; }
-    .calender-cont.widget-calender .fc-day-grid-container {
-      max-height: 250px !important;
-      overflow: hidden !important; }
 
 @media (max-width: 1680px) {
   .timeline li {
