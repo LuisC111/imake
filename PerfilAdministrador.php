@@ -82,7 +82,7 @@
                         <li><i class="fa fa-file-word-o"></i><a href="ClientesRegistrados.php">Clientes Registrados</a></li>
                         <li><i class="fa fa-id-card-o"></i><a href="NegoRegistrados.php">Negocios Registrados</a></li>
                        
-                        <li><i class="fa fa-puzzle-piece"></i><a href="ui-buttons.html">Modificacion Usuarios</a></li>
+                        <li><i class="fa fa-puzzle-piece"></i><a href="ModificacionUsuarios.php">Modificacion Usuarios</a></li>
                             <li><i class="fa fa-id-badge"></i><a href="ui-badges.html">Negocios Inactivos</a></li>
                             
                             <li><i class="fa fa-exclamation-triangle"></i><a href="ui-alerts.html">Fallas en el sistema</a></li>

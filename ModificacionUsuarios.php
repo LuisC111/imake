@@ -8,6 +8,8 @@
     <meta name="description" content="Ela Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
  
+    <link href="assets/css/PerfilAdmin.css" rel="stylesheet">
+    
     <link rel="apple-touch-icon" href="assets/img/Logo_Nuevo.png">
     <link rel="shortcut icon" href="assets/img/Logo_Nuevo.png">
 
@@ -23,7 +25,7 @@
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
 
-
+    
 
     <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script> -->
 
@@ -280,7 +282,12 @@
                                 <div class="col-sm-12">
                                 <table id="bootstrap-data-table" class="table table-striped table-bordered dataTable no-footer" role="grid" aria-describedby="bootstrap-data-table_info">
                                     <thead>
-                                        <tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="bootstrap-data-table" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Nombre: activate to sort column descending" style="width: 300.889px;">Nombre</th><th class="sorting" tabindex="0" aria-controls="bootstrap-data-table" rowspan="1" colspan="1" aria-label="Rol: activate to sort column ascending" style="width: 176.889px;">Rol</th><th class="sorting" tabindex="0" aria-controls="bootstrap-data-table" rowspan="1" colspan="1" aria-label="Ciudad: activate to sort column ascending" style="width: 169.889px;">Ciudad</th><th class="sorting" tabindex="0" aria-controls="bootstrap-data-table" rowspan="1" colspan="1" aria-label="Estado: activate to sort column ascending" style="width: 158px;">Estado</th></tr>
+                                        <tr role="row">
+                                        <th class="sorting_asc" tabindex="0" aria-controls="bootstrap-data-table" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Nombre: activate to sort column descending" style="width: 180.889px;">Nombre</th>
+                                        <th class="sorting" tabindex="0" aria-controls="bootstrap-data-table" rowspan="1" colspan="1" aria-label="Rol: activate to sort column ascending" style="width: 140px;">Rol</th>
+                                        <th class="sorting" tabindex="0" aria-controls="bootstrap-data-table" rowspan="1" colspan="1" aria-label="Ciudad: activate to sort column ascending" style="width: 169.889px;">Ciudad</th>
+                                        <th class="sorting" tabindex="0" aria-controls="bootstrap-data-table" rowspan="1" colspan="1" aria-label="Estado: activate to sort column ascending" style="width: 100px;">Estado</th>
+                                        <th class="sorting" tabindex="0" aria-controls="bootstrap-data-table" rowspan="1" colspan="1" aria-label="Estado: activate to sort column ascending" style="width: 80px;">Modificar</th></tr>
                                     </thead>
                                     <tbody>
                                         
@@ -290,53 +297,69 @@
                                             <td>Repartidor</td>
                                             <td>Bogota</td>
                                             <td>Activo</td>
+                                            <td><a id="btn-abrir-popup" href="FormularioModificacionUsuarios.php" class="btn-abrir-popup">Modificar</a></td>
                                         </tr><tr role="row" class="even">
                                             <td class="sorting_1">Bradley Greer</td>
                                             <td>Vendedor</td>
                                             <td>Cartagena</td>
                                             <td>Inactivo</td>
+                                            <td><a id="btn-abrir-popup" href="FormularioModificacionUsuarios.php" class="btn-abrir-popup">Modificar</a></td>
                                         </tr><tr role="row" class="odd">
                                             <td class="sorting_1">Caesar Vance</td>
                                             <td>Cliente</td>
                                             <td>Bogota</td>
                                             <td>Activo</td>
+                                            <td><a id="btn-abrir-popup" href="FormularioModificacionUsuarios.php" class="btn-abrir-popup">Modificar</a></td>
                                         </tr><tr role="row" class="even">
                                             <td class="sorting_1">Charde Marshall</td>
                                             <td>Cliente</td>
                                             <td>Medellin</td>
                                             <td>Activo</td>
+                                            <td><a id="btn-abrir-popup" href="FormularioModificacionUsuarios.php" class="btn-abrir-popup">Modificar</a></td>
                                         </tr><tr role="row" class="odd">
                                             <td class="sorting_1">Dai Rios</td>
                                             <td>Cliente</td>
                                             <td>Bogota</td>
                                             <td>Activo</td>
+                                            <td><a id="btn-abrir-popup" href="FormularioModificacionUsuarios.php" class="btn-abrir-popup">Modificar</a></td>
                                         </tr><tr role="row" class="even">
                                             <td class="sorting_1">Doris Wilder</td>
                                             <td>Cliente</td>
                                             <td>Cali</td>
                                             <td>Inactivo</td>
+                                            <td><a id="btn-abrir-popup" href="FormularioModificacionUsuarios.php" class="btn-abrir-popup">Modificar</a></td>
                                         </tr><tr role="row" class="odd">
                                             <td class="sorting_1">Gavin Joyce</td>
                                             <td>Vendedor</td>
                                             <td>Bogota</td>
                                             <td>Activo</td>
+                                            <td><a id="btn-abrir-popup" href="FormularioModificacionUsuarios.php" class="btn-abrir-popup">Modificar</a></td>
                                         </tr><tr role="row" class="even">
                                             <td class="sorting_1">Gloria Little</td>
                                             <td>Repartidor</td>
                                             <td>Cali</td>
                                             <td>Activo</td>
+                                            <td><a id="btn-abrir-popup" href="FormularioModificacionUsuarios.php" class="btn-abrir-popup">Modificar</a></td>
                                         </tr><tr role="row" class="odd">
                                             <td class="sorting_1">Haley Kennedy</td>
                                             <td>Vendedor</td>
                                             <td>Cartagena</td>
                                             <td>Activo</td>
+                                            <td><a id="btn-abrir-popup" href="FormularioModificacionUsuarios.php" class="btn-abrir-popup">Modificar</a></td>
                                         </tr><tr role="row" class="even">
                                             <td class="sorting_1">Jena Gaines</td>
                                             <td>Repartidor</td>
                                             <td>Bogota</td>
                                             <td>Activo</td>
+                                            <td><a id="btn-abrir-popup" href="FormularioModificacionUsuarios.php" class="btn-abrir-popup">Modificar</a></td>
                                         </tr></tbody>
-                                </table></div></div><div class="row">
+                                </table>
+                            </div></div>
+                                
+                                <div class="overlay" id="overlay">
+                                    
+                                
+                                <div class="row">
                                 <div class="col-sm-12 col-md-5">
                                 <div class="dataTables_info" id="bootstrap-data-table_info" role="status" aria-live="polite">Mostrar 1 a 10 de 18 Registros</div>
                                 </div>
@@ -392,6 +415,7 @@
     <!-- Right Panel -->
 
     <!-- Scripts -->
+  
     <script src="https://cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.4/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"></script>
