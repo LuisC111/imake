@@ -470,8 +470,6 @@ p {
     margin-bottom: 15px;
 }
 
-.social-login-btn {}
-
 .social-login-btn li {
     display: inline-block;
     vertical-align: middle;
@@ -522,10 +520,6 @@ p {
     display: block;
 }
 
-.login-form-slider .slide.signup-slide {}
-
-.login-form-slider .slide.forgot-password-slide {}
-
 
 /*==============================================================
 	04. Login Style 1
@@ -536,8 +530,6 @@ p {
     background-size: cover;
     background-position: center center;
 }
-
-.style1 {}
 
 .login-box:before {
     content: '';
