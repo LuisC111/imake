@@ -156,7 +156,6 @@ input[type=submit] {
 .btn-ghost:link,
 .btn-ghost:visited {
     border: 1px solid #ffffff;
-    -webkit-background-clip: text;
     color: #f36320;
 }
 
@@ -361,7 +360,6 @@ header {
     width: 55px;
     text-align: center;
     padding: 5px;
-    float: left;
     font-size: 150%;
     margin-right: 25px;
 }
