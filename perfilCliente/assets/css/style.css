@@ -1,23 +1,5 @@
-/* This css file is to over write bootstarp css
---------------------------------------------------------- /
-* Theme Name: Ela Admin Template
-* Theme URI: http://demos.jeweltheme.com/
-* Author: jewel_theme
-* Author URI: http://themeforest.net/user/jewel_theme/portfolio
-* Description:
-* Version: 1.0.0
-* License: GNU General Public License v2 or later
-* License URI: http://www.gnu.org/licenses/gpl-2.0.html
-* Tags: html, themplate, Ela Admin
---------------------------------------------------------- */
-/* 
-
-
-Googel Fonts  */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
-/* Googel Fonts End  
 
-*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
 .bg-flat-color-1 {
   background: #00c292; }
@@ -133,13 +115,6 @@ Googel Fonts  */
 .mb-15 {
   margin-bottom: 15px; }
 
-/* 
-
-
-Googel Fonts  */
-/* Googel Fonts End  
-
-*/
 .bg-flat-color-1 {
   background: #00c292; }
 
@@ -556,8 +531,6 @@ canvas {
       right: 0;
       top: 0; }
 
-/* Global Styles */
-/* Main Styles */
 aside.left-panel {
   background: #fff;
   height: 100vh;
@@ -1889,8 +1862,6 @@ header .form-inline {
     border-color: #212529;
     color: #fff; }
 
-/*    Widget One
----------------------------*/
 .dib {
   display: inline-block; }
 
@@ -1918,8 +1889,6 @@ header .form-inline {
   font-size: 24px;
   color: #373757; }
 
-/*    Widget Two
----------------------------*/
 .stat-widget-two {
   text-align: center; }
 
@@ -1948,8 +1917,6 @@ header .form-inline {
   -webkit-box-shadow: none;
           box-shadow: none; }
 
-/*    Widget Three
----------------------------*/
 .stat-widget-three .stat-icon {
   display: inline-block;
   padding: 33px;
@@ -1985,8 +1952,6 @@ header .form-inline {
   margin-left: 60px;
   padding: 13px; }
 
-/*    Widget Four
----------------------------*/
 .stat-widget-four {
   position: relative; }
   .stat-widget-four .stat-icon {
@@ -2002,8 +1967,6 @@ header .form-inline {
   .stat-widget-four .stat-heading {
     font-size: 20px; }
 
-/*    Widget Five
----------------------------*/
 .stat-widget-five {
   min-height: 60px; }
   .stat-widget-five .stat-icon {
@@ -2409,5 +2372,3 @@ li span {
   #cellPaiChart #pieLabel0 {
     left: inherit !important;
     right: 20px !important; }
-
-/*# sourceMappingURL=style.css.map */
