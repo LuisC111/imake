@@ -1468,6 +1468,7 @@ header .form-inline {
     text-transform: capitalize;
     vertical-align: middle; }
 
+
 /* Weather */
 .widget .card-footer {
   border-top-color: #e8e9ef; }
@@ -2408,3 +2409,5 @@ li span {
   #cellPaiChart #pieLabel0 {
     left: inherit !important;
     right: 20px !important; }
+
+/*# sourceMappingURL=style.css.map */
