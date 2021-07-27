@@ -1,7 +1,7 @@
 <?php
     
     class pedido_model{
-        privte $DB;
+        private $DB;
         private $pedidos;
 
         function __construct(){
