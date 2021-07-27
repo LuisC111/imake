@@ -1,7 +1,7 @@
 <?php 
     require_once('model/pedidos_model.php');
 
-    class pedido_controller{
+    class pedid_controller{
 
         private $model_e;
         private $model_p;
