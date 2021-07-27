@@ -12,7 +12,7 @@
             $sql= 'SELECT * FROM pedido ORDER BY idpedido DESC';
             $fila=$this->DB->query($sql);
             $this->pedidos=$fila;
-            return  $this->prdidos;
+            return  $this->pedidos;
         }
 
         function create($data){
