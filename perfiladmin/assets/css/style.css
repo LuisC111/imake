@@ -1,23 +1,5 @@
-/* This css file is to over write bootstarp css
---------------------------------------------------------- /
-* Theme Name: Ela Admin Template
-* Theme URI: http://demos.jeweltheme.com/
-* Author: jewel_theme
-* Author URI: http://themeforest.net/user/jewel_theme/portfolio
-* Description:
-* Version: 1.0.0
-* License: GNU General Public License v2 or later
-* License URI: http://www.gnu.org/licenses/gpl-2.0.html
-* Tags: html, themplate, Ela Admin
---------------------------------------------------------- */
-/* 
-
-
-Googel Fonts  */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
-/* Googel Fonts End  
 
-*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
 .bg-flat-color-1 {
   background: #00c292; }
@@ -133,13 +115,6 @@ Googel Fonts  */
 .mb-15 {
   margin-bottom: 15px; }
 
-/* 
-
-
-Googel Fonts  */
-/* Googel Fonts End  
-
-*/
 .bg-flat-color-1 {
   background: #00c292; }
 
@@ -556,8 +531,6 @@ canvas {
       right: 0;
       top: 0; }
 
-/* Global Styles */
-/* Main Styles */
 aside.left-panel {
   background: #fff;
   height: 100vh;
@@ -879,7 +852,7 @@ aside.left-panel {
 .right-panel .navbar-header {
   width: 100%;
   background-color: #fff;
-  padding: 0 1.25em 0 0; }
+  padding: 0 1.25em 0 0;}
   .right-panel .navbar-header > a {
     display: inline-block; }
 .right-panel .navbar-brand {
@@ -1468,34 +1441,6 @@ header .form-inline {
     text-transform: capitalize;
     vertical-align: middle; }
 
-/* Timeline */
-.timeline li {
-  font-family: 'Open Sans';
-  list-style: none;
-  padding: 5px 0;
-  position: relative; }
-  .timeline li i {
-    border-radius: 50%;
-    color: #fff;
-    font-size: 12px;
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-    text-align: center; }
-  .timeline li span {
-    color: #868e96;
-    display: block;
-    font-size: 14px; }
-    .timeline li span a {
-      color: #343a40; }
-  .timeline li .time {
-    font-size: 12px;
-    padding-bottom: 15px; }
-  .timeline li img {
-    margin: 10px 5px 15px 0;
-    max-height: 40px; }
-.timeline .media-body {
-  border-bottom: 1px solid #e8e9ef; }
 
 /* Weather */
 .widget .card-footer {
@@ -1564,7 +1509,6 @@ header .form-inline {
     color: #878787;
     display: inline-block;
     font-size: 16px;
-    float: left;
     padding: 0 7px;
     width: inherit;
     text-align: center; }
@@ -1606,7 +1550,6 @@ header .form-inline {
   left: 40%; }
 
 .twt-feed {
-  -webkit-border-radius: 4px 4px 0 0;
   color: #FFFFFF;
   padding: 40px 10px 10px;
   position: relative;
@@ -1878,7 +1821,9 @@ header .form-inline {
 
 .morris-hover.morris-default-style .morris-hover-row-label {
   font-weight: bold;
-  margin: 0.25em 0; }
+  margin: 0.25em 0; 
+  height: 60px;
+ width: 60px}
 
 .morris-hover.morris-default-style .morris-hover-point {
   white-space: nowrap;
@@ -1917,8 +1862,6 @@ header .form-inline {
     border-color: #212529;
     color: #fff; }
 
-/*    Widget One
----------------------------*/
 .dib {
   display: inline-block; }
 
@@ -1946,8 +1889,6 @@ header .form-inline {
   font-size: 24px;
   color: #373757; }
 
-/*    Widget Two
----------------------------*/
 .stat-widget-two {
   text-align: center; }
 
@@ -1976,8 +1917,6 @@ header .form-inline {
   -webkit-box-shadow: none;
           box-shadow: none; }
 
-/*    Widget Three
----------------------------*/
 .stat-widget-three .stat-icon {
   display: inline-block;
   padding: 33px;
@@ -2013,8 +1952,6 @@ header .form-inline {
   margin-left: 60px;
   padding: 13px; }
 
-/*    Widget Four
----------------------------*/
 .stat-widget-four {
   position: relative; }
   .stat-widget-four .stat-icon {
@@ -2030,8 +1967,6 @@ header .form-inline {
   .stat-widget-four .stat-heading {
     font-size: 20px; }
 
-/*    Widget Five
----------------------------*/
 .stat-widget-five {
   min-height: 60px; }
   .stat-widget-five .stat-icon {
@@ -2100,59 +2035,6 @@ footer.site-footer {
     footer.site-footer .footer-inner a {
       color: #6a7074; }
 
-.calender-cont {
-  position: relative;
-  padding-top: 20px; }
-  .calender-cont .fc-title {
-    color: #fff; }
-  .calender-cont .fc-center {
-    position: absolute;
-    top: 0;
-    left: 0; }
-    .calender-cont .fc-center h2 {
-      font-size: 16px;
-      font-weight: 700; }
-  .calender-cont td .fc-event {
-    border: 0px solid transparent;
-    padding: 1px; }
-  .calender-cont td .fc-time {
-    color: white;
-    font-weight: 400;
-    font-size: 11px;
-    padding: 2px; }
-  .calender-cont .fc-left .fc-button-group {
-    position: absolute;
-    top: 0;
-    right: 0; }
-    .calender-cont .fc-left .fc-button-group button {
-      height: 20px;
-      width: 20px;
-      line-height: 18px;
-      padding: 0;
-      border: 0px solid transparent;
-      background: #eceff1;
-      color: #889196; }
-      .calender-cont .fc-left .fc-button-group button.fc-prev-button {
-        margin-right: 4px; }
-      .calender-cont .fc-left .fc-button-group button .fc-icon {
-        font-size: 11px; }
-      .calender-cont .fc-left .fc-button-group button:hover {
-        background: #d8d8d8; }
-  .calender-cont.widget-calender {
-    padding-top: 20px; }
-    .calender-cont.widget-calender td, .calender-cont.widget-calender th {
-      font-size: 14px;
-      border: 0px solid transparent; }
-    .calender-cont.widget-calender .fc-right {
-      display: none; }
-    .calender-cont.widget-calender .fc-today-button {
-      display: none; }
-    .calender-cont.widget-calender .fc-widget-content {
-      height: 45px !important;
-      min-height: 45px !important; }
-    .calender-cont.widget-calender .fc-day-grid-container {
-      max-height: 250px !important;
-      overflow: hidden !important; }
 
 @media (max-width: 1680px) {
   .timeline li {
@@ -2189,7 +2071,7 @@ footer.site-footer {
     height: 90px; }
 
   .widget .row.p-4.height-93 {
-    padding: 1.125em 1.75em !important; }
+    padding: 1.125em 1.75em !important;}
   .widget .card-footer.p-3.bg-white.text-center {
     padding: .9em !important; }
 
@@ -2312,26 +2194,18 @@ footer.site-footer {
   .navbar .main-menu {
     padding: 0; }
 
-  #language-select,
-  .user-area .dropdown-toggle,
-  header .form-inline {
+  #language-select,.user-area .dropdown-toggle,header .form-inline {
     height: 48px; }
-
   .header-left .dropdown .dropdown-menu {
     top: 47px !important; }
-
   #language-select .dropdown-menu {
     top: 49px !important; }
-
   .user-area .user-menu {
     top: 51px !important; }
-
   .content {
     padding: 1.25em; }
-
   .flotRealtime2 {
     height: 330px; }
-
   .card {
     margin-bottom: 1.25em; }
     .card .card-header {
@@ -2349,11 +2223,9 @@ footer.site-footer {
     padding-bottom: 1.5em !important;
     padding-left: 1em !important;
     padding-right: 1em !important; }
-
   #g2 {
     height: auto !important;
     padding-top: 7px; }
-
   #flotBar2 {
     height: 150px; }
 
@@ -2369,8 +2241,7 @@ footer.site-footer {
     .card-footer.bg-white [class*="float"].currency {
       display: inline-block; }
     .card-footer.bg-white [class*="float"].fa {
-      display: inline-block;
-      float: left !important; }
+      display: inline-block;}
 
   #traffic-chart {
     height: 232px !important; }
@@ -2385,8 +2256,7 @@ footer.site-footer {
 
   .timeline li img {
     margin: 0px 5px 5px 0; }
-
-  .timeline li span {
+li span {
     padding-bottom: 8px !important; }
 
   .card-footer.bg-white.br-0.pl-5.pr-5.pt-1.pb-4.mb-3 {
@@ -2502,5 +2372,3 @@ footer.site-footer {
   #cellPaiChart #pieLabel0 {
     left: inherit !important;
     right: 20px !important; }
-
-/*# sourceMappingURL=style.css.map */
