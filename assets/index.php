@@ -1,5 +1,5 @@
 <?php
-    require_once('conection/conexion.php');
+    require_once('cnection/conexion.php');
     require_once('controller/pedidos_controller.php');
 
     $controller= new pedido_controller();
