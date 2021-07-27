@@ -18,7 +18,7 @@
         function create($data){
 
             $this->DB->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            $sql="INSERT INTO pedido(idpedido,domicilio,valortotalpedido)VALUES (?,?,?)";
+            $sql="INSERT INO pedido(idpedido,domicilio,valortotalpedido)VALUES (?,?,?)";
 
             $query = $this->DB->prepare($sql);
             $query->execute(array($data['idpedido'],$data['domicilio'],$data['valortotalpedido']));
