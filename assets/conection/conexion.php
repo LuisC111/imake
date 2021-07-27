@@ -1,36 +1,30 @@
 <?php
-class Database
+class Conexion
 {
-    private static $dbName = 'imake' ;
-    private static $dbHost = 'localhost' ;
-    private static $dbUsername = 'root';
-    private static $dbUserPassword = '';
-     
-    private static $cont  = null;
-     
-    public function __construct() {
-        die('Init function is not allowed');
-    }
-     
-    public static function connect()
-    {
-       if ( null == self::$cont )
-       {     
-        try
-        {
-          self::$cont =  new PDO( "mysql:host=".self::$dbHost.";"."dbname=".self::$dbName, self::$dbUsername, self::$dbUserPassword); 
-        }
-        catch(PDOException $e)
-        {
-          die($e->getMessage()); 
-        }
-       }
-       return self::$cont;
-    }
-     
-    public static function disconnect()
-    {
-        self::$cont = null;
-    }
+
+	public static function Conectar()
+	{
+		$conn = mysqli_connect("localhost", "root", "", "imake");
+
+		if (!$conn) {
+			die("No hay conexión: " . mysqli_connect_error());
+		}
+	}
+	public function get_connection()
+	{
+		return $this->conn;
+	}
+}
+function ejecutarConsulta($sql)
+{
+	global $conn;
+	$query = $conn->query($sql);
+	return $query;
+}
+function limpiarCadena($str)
+{
+	global $conn;
+	$str = mysqli_real_escape_string($conn, trim($str));
+	return htmlspecialchars($str);
 }
 ?>
