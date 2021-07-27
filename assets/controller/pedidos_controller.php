@@ -1,5 +1,5 @@
 <?php 
-    require_once('modelo/pedidos_model.php');
+    require_once('model/pedidos_model.php');
 
     class pedido_controller{
 
