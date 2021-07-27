@@ -1,7 +1,7 @@
 <?php 
 //incluir la conexion de base de datos
 require "../config/Conexion.php";
-class Usuario
+class Negocio
 {
     
     //implementamos nuestro constructor
@@ -10,9 +10,9 @@ class Usuario
     }
     
     //metodo insertar registro
-    public function insertar($PidUsuario,$Pusuario, $PcontraseñaUsuario, $PnombreUsuario, $PapellidoUsuario, $PtipoDocUsuario, $PdocUsuario, $PestadoUsuario, $PidTipoUsuario, $PidEspecialidad)
+    public function insertar($PidNegocio,$PnombreNegocio,$PdireccionNegocio,$PnitNegocio,$PestadoNegocio,$PidTipoNegocio,$PidBarrio,$PidUsuario,$PidPeticionNegocio)
     {
-        $sql="CALL insertarDatosUsuario('$PidUsuario','$Pusuario','$PcontraseñaUsuario','$PnombreUsuario','$PapellidoUsuario','$PtipoDocUsuario','$PdocUsuario','$PestadoUsuario','$PidTipoUsuario','$PidEspecialidad');";
+        $sql="CALL insertarDatosNegocio('$PidNegocio','$PnombreNegocio','$PdireccionNegocio','$PnitNegocio','$PestadoNegocio','$PidTipoNegocio','$PidBarrio','$PidUsuario','$PidPeticionNegocio');";
         //return ejecutarConsulta($sql);
         ejecutarConsulta($sql);
         $z=ejecutarConsulta_retornarID($sql);
@@ -20,8 +20,8 @@ class Usuario
         $sw=true;
         return $sw;
     }
-    public function editar($PidUsuario,$Pusuario, $PcontraseñaUsuario, $PnombreUsuario, $PapellidoUsuario, $PtipoDocUsuario, $PdocUsuario, $PestadoUsuario, $PidTipoUsuario, $PidEspecialidad){
-        $sql="CALL ActualizarDatosUsuario('$PidUsuario','$Pusuario','$PcontraseñaUsuario','$PnombreUsuario','$PapellidoUsuario','$PtipoDocUsuario','$PdocUsuario','$PestadoUsuario','$PidTipoUsuario','$PidEspecialidad');";
+    public function editar($PidUsuario,$PnombreUsuario,$PapellidoUsuario, $PcontraseñaUsuario,$PcorreoUsuario, $PfechaNacimiento, $PdocumentoUsuario, $PestadoUsuario){
+        $sql="CALL ActualizarDatosUsuario('$PidUsuario','$PnombreUsuario','$PapellidoUsuario', '$PcontraseñaUsuario','$PcorreoUsuario', '$PfechaNacimiento', '$PdocumentoUsuario', '$PestadoUsuario');";
         ejecutarConsulta($sql);
         $sw=true;
         return $sw;

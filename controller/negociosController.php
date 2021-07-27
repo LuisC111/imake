@@ -2,7 +2,7 @@
 session_start();
 require_once "../model/negocioModel.php";
 
-$Negocio = new negocio();
+$Negocio = new Negocio();
 
 $idUsu=isset($_POST["idUserNew"])? limpiarCadena($_POST["idUserNew"]):"";
 $usu=isset($_POST["userNew"])? limpiarCadena($_POST["userNew"]):"";
