@@ -1,6 +1,6 @@
 <?php
     
-    class pedido_model{
+    class peddo_model{
         private $DB;
         private $pedidos;
 
