@@ -1,6 +1,6 @@
 <?php
     require_once('conection/conexion.php');
-    require_once('cotroller/pedidos_controller.php');
+    require_once('cotronller/pedidos_controller.php');
 
     $controller= new pedido_controller();
     
